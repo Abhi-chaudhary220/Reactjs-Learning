@@ -17,7 +17,7 @@ function Previous() {
         <div class="col-4">
           <button type="button" class="btn btn-danger">
             Danger
-          </button>
+          </button> 
         </div>
       </div>
     </div>
