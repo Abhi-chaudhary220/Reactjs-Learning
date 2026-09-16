@@ -1,44 +1,12 @@
+import Heading from "./components/App heading.jsx";
+import TaskSection from "./components/Task section.jsx";
+import Previous from "./components/Previous Tasks.jsx";
 function App() {
   return (
     <center ClassName="container">
-      <h1>Todo App</h1>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-4">
-            <input type="text" placeholder="Enter Work Here"></input>
-          </div>
-          <div class="col-4">
-            <input type="date"></input>
-          </div>
-          <div class="col-4">
-            <button type="button" class="btn btn-success">Add New</button>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-4">
-            Do Meditation
-          </div>
-          <div class="col-4">
-            10/09/2005
-          </div>
-          <div class="col-4">
-            <button type="button" class="btn btn-danger">Danger</button>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-4">
-            Do Exercise
-          </div>
-          <div class="col-4">
-            09/10/2005
-          </div>
-          <div class="col-4">
-            <button type="button" class="btn btn-danger">Danger</button>
-          </div>
-        </div>
-      </div>
+      <Heading />
+      <TaskSection />
+      <Previous />
     </center>
   );
 }
