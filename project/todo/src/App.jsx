@@ -1,16 +1,14 @@
-import Heading from "./components/App heading.jsx";
-import TaskSection from "./components/Task section.jsx";
-import Previous from "./components/Previous Tasks.jsx";
+import Heading from "./components/App heading";
+import TaskSection from "./components/Task section";
+import Previous from "./components/Previous Tasks";
 import "./App.css";
 function App() {
   return (
-    <center className="container">
+    <div className="container-fluid py-4 text-center main">
       <Heading />
-      <div className="task-container">
-        <TaskSection />
-        <Previous />
-      </div>
-    </center>
+      <TaskSection />
+      <Previous />
+    </div>
   );
 }
 
