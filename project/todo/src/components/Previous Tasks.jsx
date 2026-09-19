@@ -1,21 +1,21 @@
 function Previous() {
   return (
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-4">Do Meditation</div>
-        <div class="col-4">10/09/2005</div>
+    <div class="container">
+      <div class="row my-row">
+        <div class="col-4 text">Do Meditation</div>
+        <div class="col-4 date">10/09/2005</div>
         <div class="col-4">
-          <button type="button" class="btn btn-danger">
+          <button type="button" class="btn btn-danger btn">
             Danger
           </button>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-4">Do Exercise</div>
-        <div class="col-4">09/10/2005</div>
+      <div class="row my-row">
+        <div class="col-4 text">Do Exercise</div>
+        <div class="col-4 date">09/10/2005</div>
         <div class="col-4">
-          <button type="button" class="btn btn-danger">
+          <button type="button" class="btn btn-danger btn">
             Danger
           </button>
         </div>

@@ -1,12 +1,15 @@
 import Heading from "./components/App heading.jsx";
 import TaskSection from "./components/Task section.jsx";
 import Previous from "./components/Previous Tasks.jsx";
+import "./App.css";
 function App() {
   return (
-    <center ClassName="container">
+    <center className="container">
       <Heading />
-      <TaskSection />
-      <Previous />
+      <div className="task-container">
+        <TaskSection />
+        <Previous />
+      </div>
     </center>
   );
 }

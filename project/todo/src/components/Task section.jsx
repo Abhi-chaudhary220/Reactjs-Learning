@@ -1,7 +1,7 @@
 function TaskSection() {
   return (
-    <div class="container text-center">
-      <div class="row">
+    <div class="container">
+      <div class="row my-row">
         <div class="col-4">
           <input type="text" placeholder="Enter Work Here"></input>
         </div>
