@@ -1,6 +1,6 @@
 function Quote() {
   return (
-    <h3>
+    <h3 className="lead">
       Bharat Clock honors our heritage by measuring time through celestial
       rhythms, seamlessly connecting cosmic wisdom with modern precision to
       anchor India's eternal identity.

@@ -1,4 +1,4 @@
 function Heading() {
-  return <h2>BHARAT CLOCK</h2>;
+  return <h2 className="fw-semibold">BHARAT CLOCK</h2>;
 }
 export default Heading;
