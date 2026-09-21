@@ -1,3 +1,4 @@
+
 function App() {
   let healthyItems = [
     "banana",
@@ -7,14 +8,16 @@ function App() {
     "papaya",
     "pineapple",
     "orange",
+    "strawberry",
   ];
   return (
     <>
       <h1>Keep Healthy</h1>
-      <ul className="list-group">
-        {healthyItems.map((item) => (
-          <li class="list-group-item">{item}</li>
-        ))}
+      <ul class="list-group">
+        {healthyItems.map((item) => {
+          return(
+          <li class="list-group-item">{item}</li>)
+        })}
       </ul>
     </>
   );
