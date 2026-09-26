@@ -36,9 +36,11 @@ function FruitItems() {
   //   return <h3>I m Hungry</h3>;
   // }
   // let msg = fruits.length === 0 ? <h2>I m Hungry</h2> : null;
+  // let msg = fruits.length === 0 && <h2>I m Hungry</h2>;
   return (
     <>
       <h1>Fruits List</h1>
+      {/* {msg} */}
       {/* {msg} */}
       <ul className="list-group">
         {fruits.map((fruitName) => {
