@@ -34,15 +34,15 @@ function FruitItems() {
 
   // if (fruits.length === 0) {
   //   return <h3>I m Hungry</h3>;
-  // } 
+  // }
+  // let msg = fruits.length === 0 ? <h2>I m Hungry</h2> : null;
   return (
     <>
       <h1>Fruits List</h1>
+      {/* {msg} */}
       <ul className="list-group">
         {fruits.map((fruitName) => {
-          return (
-          <li className="list-group-item">{fruitName}</li>
-          )
+          return <li className="list-group-item">{fruitName}</li>;
         })}
       </ul>
     </>
