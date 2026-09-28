@@ -22,27 +22,13 @@
 // }
 // export default FoodItem;
 
-// import Item from "./item";
-// function FruitsList({ items }) {
-//   return (
-//     <>
-//       <ul className="list-group">
-//         {items.map((fruitName) => {
-//           return <Item key={fruitName} fruit={fruitName}></Item>;
-//         })}
-//       </ul>
-//     </>
-//   );
-// }
-// export default FruitsList;
-
-
+import Item from "./item";
 function FruitsList({ items }) {
   return (
     <>
       <ul className="list-group">
         {items.map((fruitName) => {
-          return <li key = {fruitName}className="list-group-item">{fruitName}</li>
+          return <Item key={fruitName} fruit={fruitName}></Item>;
         })}
       </ul>
     </>
