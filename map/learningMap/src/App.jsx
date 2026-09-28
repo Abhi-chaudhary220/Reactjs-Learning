@@ -31,17 +31,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import FruitsList from "./fruitslist";
 import ErrorMsg from "./errormsg";
 
-
-
 function FruitItems() {
   let fruits = ["Apple", "Banana", "Mango", "Papaya", "Orange", "Strawberry"];
   return (
     <>
       <h1>Fruits List</h1>
-      <ErrorMsg />
-      <FruitsList />
-      
-      
+      <ErrorMsg items={fruits} />
+      <FruitsList items={fruits} />
     </>
   );
 }
