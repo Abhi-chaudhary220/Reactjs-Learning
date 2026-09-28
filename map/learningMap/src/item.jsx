@@ -9,9 +9,9 @@
 
 
 
-function Item ({fruit}) {
+// function Item ({fruit}) {
   
-  return <li className="list-group-item">{fruit}</li>
+//   return <li className="list-group-item">{fruit}</li>
   
-}
-export default Item;
+// }
+// export default Item;

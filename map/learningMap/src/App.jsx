@@ -32,7 +32,7 @@ import FruitsList from "./fruitslist";
 import ErrorMsg from "./errormsg";
 
 function FruitItems() {
-  let fruits = ["Apple", "Banana", "Mango", "Papaya", "Orange", "Strawberry"];
+  let fruits = ["Apple", "Banana", "Mango", "Papaya", "Orange", "Strawberry", "Blueberry"];
   return (
     <>
       <h1>Fruits List</h1>
