@@ -22,14 +22,16 @@
 // }
 // export default FoodItem;
 
+import Item from "./item";
 function FruitsList() {
   let fruits = ["Apple", "Banana", "Mango", "Papaya", "Orange", "Strawberry"];
   return (
     <>
       <ul className="list-group">
         {fruits.map((fruitName) => {
-          return <li className="list-group-item">{fruitName}</li>;
-        })}
+          return(
+          <Item key={fruitName} fruit={fruitName}></Item>
+        )})}
       </ul>
     </>
   );
