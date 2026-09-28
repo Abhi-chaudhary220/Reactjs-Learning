@@ -28,25 +28,16 @@
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import FruitsList from "./fruitslist";
+import ErrorMsg from "./errormsg";
 
 function FruitItems() {
-  let fruits = ["Apple", "Banana", "Mango", "Papaya", "Orange"];
-
-  // if (fruits.length === 0) {
-  //   return <h3>I m Hungry</h3>;
-  // }
-  // let msg = fruits.length === 0 ? <h2>I m Hungry</h2> : null;
-  // let msg = fruits.length === 0 && <h2>I m Hungry</h2>;
+  let fruits = ["Apple", "Banana", "Mango", "Papaya", "Orange", "Strawberry"];
   return (
     <>
       <h1>Fruits List</h1>
-      {/* {msg} */}
-      {/* {msg} */}
-      <ul className="list-group">
-        {fruits.map((fruitName) => {
-          return <li className="list-group-item">{fruitName}</li>;
-        })}
-      </ul>
+      <ErrorMsg />
+      <FruitsList />
     </>
   );
 }
