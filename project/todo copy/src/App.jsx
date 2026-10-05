@@ -2,9 +2,10 @@ import Heading from "./components/App heading";
 import TaskSection from "./components/Task section";
 import Previous from "./components/Previous Tasks";
 import "./App.css";
+import styles from "./App.module.css";
 function App() {
   return (
-    <div className="container-fluid py-4 text-center main">
+    <div className={`container-fluid py-4 text-center main ${styles.main}`}>
       <Heading />
       <TaskSection />
       <Previous task="Do Exercise" date="01/10/2026" />

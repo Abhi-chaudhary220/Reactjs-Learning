@@ -1,0 +1,15 @@
+.main {
+  min-height: 330px;
+  width: 95%;
+  max-width: 600px;
+  margin: 20px auto 0 auto;
+  background-color: rgb(173, 137, 137);
+  background-image: linear-gradient(
+    to right,
+    rgb(173, 137, 137),
+    rgb(255, 255, 255)
+  );
+
+  box-shadow: 0 0 20px rgb(248, 123, 123);
+  border-radius: 10px;
+}
