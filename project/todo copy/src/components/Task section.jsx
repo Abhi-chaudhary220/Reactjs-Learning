@@ -4,7 +4,7 @@ import styles from "./Task Section.module.css";
 function TaskSection() {
   return (
     <div className="container text-center">
-      <div className="row g-2 {styles.input}">
+      <div className={`row g-2 ${styles.inputCenter}`}>
         <div className="col-12 col-md-4">
           <input
             type="text"
